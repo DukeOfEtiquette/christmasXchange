@@ -400,7 +400,7 @@
 #login {
     position: relative;
     z-index: 99;
-    padding-top: 550px;
+    padding-top: 50px;
     margin: auto;
 
     /* width: 50%;
@@ -435,7 +435,7 @@ main {
 #result {
     position: relative;
     z-index: 99;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     margin: auto;
     font-size: 2rem;
 }
