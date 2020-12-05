@@ -2,8 +2,15 @@
     background-color: red;
 } */
 
-.fond{position:fixed;padding-top:85px;top:0;left:0; right:0;bottom:0;
-  background-color:#84cedb;}
+.fond{
+    position:fixed;
+    padding-top: 5rem;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#84cedb;
+}
 
 .contener_home_one
 {
@@ -400,7 +407,7 @@
 #login {
     position: relative;
     z-index: 99;
-    padding-top: 50px;
+    padding-top: 20px;
     margin: auto;
 
     /* width: 50%;
