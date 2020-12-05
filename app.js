@@ -1,27 +1,27 @@
 const USERS = {
     'kevin': {
-        passwd: 'pass',
-        xchange: 'Adam'
+        passwd: 'snowflake',
+        xchange: 'Austin'
     },
     'shanna': {
-        passwd: 'pass',
+        passwd: 'rudolph',
         xchange: 'Denae'
     },
     'kelsie': {
-        passwd: 'pass',
-        xchange: 'Shanna'
-    },
-    'austin': {
-        passwd: 'pass',
+        passwd: 'baking',
         xchange: 'Kevin'
     },
+    'austin': {
+        passwd: 'candycane',
+        xchange: 'Adam'
+    },
     'denae': {
-        passwd: 'pass',
-        xchange: 'Shanna'
+        passwd: 'hotass',
+        xchange: 'Kelsie'
     },
     'adam': {
         passwd: 'pass',
-        xchange: 'Kelsie'
+        xchange: 'Shanna'
     }
 };
 
@@ -50,7 +50,7 @@ window.onload = () => {
         console.log(passwd);
 
         if(USERS[user]){
-            if(USERS[user].passwd === passwd){
+            if(USERS[user].passwd === passwd.toLowerCase()){
                 console.log(`Your xchange partner is: ${USERS[user].xchange}`);
                 document.getElementById('secret-santa').innerHTML = USERS[user].xchange;
             }else {
